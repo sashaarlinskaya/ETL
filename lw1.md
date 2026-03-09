@@ -45,7 +45,10 @@ charges — индивидуальные страховые взносы (от 1
 
 ### Шаг 1. Запуск Pentaho Spoonо
 cd ~/Downloads/lab_etl/pdi-ce-9.4.0.0-343/data-integration
+
 ./spoon.sh
+<img width="725" height="172" alt="image" src="https://github.com/user-attachments/assets/a68a7ebc-fb40-4884-ad73-a3641fb6361d" />
+
 
 ### Шаг 2. Настройка среды
 **Шаг 2.1. Настройка ETL-среды**
