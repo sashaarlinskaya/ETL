@@ -49,6 +49,7 @@ cd ~/Downloads/lab_etl/pdi-ce-9.4.0.0-343/data-integration
 
 ### Шаг 2. Настройка среды
 **Шаг 2.1. Настройка ETL-среды**
+
 Загрузка файла
 <img width="1272" height="794" alt="image" src="https://github.com/user-attachments/assets/07773dfd-5a9d-4a16-bd52-3d9e421a650c" />
 
@@ -62,9 +63,11 @@ cd ~/Downloads/lab_etl/pdi-ce-9.4.0.0-343/data-integration
 <img width="948" height="607" alt="image" src="https://github.com/user-attachments/assets/36dc3d14-11f9-411f-bb31-95385e39c155" />
 
 Общий вид
+
 <img width="917" height="315" alt="image" src="https://github.com/user-attachments/assets/d43d4e2d-c8f0-414c-a85b-5b10435f998a" />
 
 **Шаг 2.1. Настройка phpMyAdmin**
+
 Создали таблицу
 <img width="1278" height="369" alt="image" src="https://github.com/user-attachments/assets/75aa4acb-d13f-4776-82c8-09ff15b85960" />
 
