@@ -118,4 +118,6 @@ products
 
 <img width="517" height="190" alt="image" src="https://github.com/user-attachments/assets/be5c4d9f-8a90-440d-a053-fc7457faeafe" />
 
+**Вывод**
 
+В ходе выполнения проекта были успешно реализованы все ключевые компоненты современного ETL-процесса с использованием Pentaho Data Integration (PDI). Ниже представлен детальный анализ полученных навыков и достигнутых результатов.
