@@ -52,10 +52,12 @@ Job
 
 
 Загрузка таблицы products
+
 <img width="936" height="316" alt="image" src="https://github.com/user-attachments/assets/52794afc-5bc3-4851-a82b-6dba0e9c4374" />
 
 
 Загрузка таблицы customers
+
 <img width="694" height="311" alt="image" src="https://github.com/user-attachments/assets/01421e89-0126-41ef-bae7-727706f6392a" />
 
 
