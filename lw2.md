@@ -68,12 +68,19 @@ Job
 
 
 **Шаг 3. Загрузка данных**
+
 Видим, что данные загрузились
+
+Orders
 
 <img width="1440" height="865" alt="image" src="https://github.com/user-attachments/assets/c933c5a4-222e-48e6-95d6-dccdea8080d4" />
 
+products
+
 <img width="1469" height="927" alt="image" src="https://github.com/user-attachments/assets/bace54c6-337b-4adf-9048-ab1378f047d2" />
 
+ customers
+ 
 <img width="1520" height="781" alt="image" src="https://github.com/user-attachments/assets/01a33f68-c925-42a8-b848-8928941f5420" />
 
 ### Задание по варианту 3
