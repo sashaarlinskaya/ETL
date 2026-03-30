@@ -59,7 +59,8 @@
 <img width="995" height="706" alt="image" src="https://github.com/user-attachments/assets/f1c7451a-8bdd-4e4b-a852-c19c9f1e3744" />
 
 **CSV Input / Excel Input:** Чтение данных из файлов (по 100 000 строк).
-<img width="1756" height="729" alt="image" src="https://github.com/user-attachments/assets/a9261bf8-8029-4b98-84a7-f2091bef3841" />
+<img width="1211" height="798" alt="image" src="https://github.com/user-attachments/assets/a68c7834-4197-44c6-a634-b9a2cf8cdac0" />
+
 
 **Stream Lookup:** Обогащение данных из базы данных данными из файлов (присоединение по `product_id`).
 <img width="1669" height="564" alt="image" src="https://github.com/user-attachments/assets/73e79646-937e-4084-89f0-64c6f50d8378" />
