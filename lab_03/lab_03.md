@@ -33,8 +33,8 @@
 Был подготовлен скрипт (в файле `sql_scripts.sql`), который создает таблицу `retail_stores` и с помощью функции `generate_series` генерирует **1 000 000 строк** случайных данных (ID магазина, ID продукта, остаток, дата и категория товара).
 
 Создание БД:
-<img width="902" height="453" alt="image" src="https://github.com/user-attachments/assets/f56b5878-673f-4682-8945-b1be8155a090" />
 
+<img width="902" height="453" alt="image" src="https://github.com/user-attachments/assets/f56b5878-673f-4682-8945-b1be8155a090" />
 
 
 Наполнение БД:
