@@ -30,8 +30,14 @@
 ### Шаг 2.1. Генерация данных для PostgreSQL
 Был подготовлен скрипт (в файле `sql_scripts.sql`), который создает таблицу `retail_stores` и с помощью функции `generate_series` генерирует **1 000 000 строк** случайных данных (ID магазина, ID продукта, остаток, дата и категория товара).
 Создание БД:
+<img width="973" height="552" alt="image" src="https://github.com/user-attachments/assets/ec178698-b757-4996-80f7-5ab61c2c2840" />
+
 
 Наполнение БД:
+
+<img width="738" height="612" alt="image" src="https://github.com/user-attachments/assets/b3fd2c0c-ceb2-4ad6-b423-a40a05b5c8af" />
+
+<img width="928" height="813" alt="image" src="https://github.com/user-attachments/assets/16b5113b-7258-4192-bbd6-b220caf02750" />
 
 ### Шаг 2.2. Генерация файлов CSV и Excel
 Чтобы создать файлы с **100 000 строк**, используется скрипт `generate_data.py` (написан на Python с использованием библиотек `pandas` и `numpy`).
@@ -40,7 +46,7 @@
 
 Выполненеи скрипта по генерации данных:
 
-
+<img width="872" height="759" alt="image" src="https://github.com/user-attachments/assets/8bde6c29-8d2f-4f73-ba10-40d35828d25e" />
 ---
 
 ## 3. ETL-процесс в Pentaho (Spoon)
