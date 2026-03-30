@@ -21,7 +21,7 @@
 - **Storage Layer:** Staging Area (Pentaho Data Integration) и целевая БД MySQL.
 - **Business Layer:** Аналитическое представление (View) в MySQL.
 
-*Файл `architecture.drawio` с разработанной схемой приложен в репозитории. Вы можете открыть его через [draw.io](https://app.diagrams.net/).*
+
 
 <img width="980" height="500" alt="image" src="https://github.com/user-attachments/assets/c4c77216-1c40-4db6-a4c3-400c31f0b444" />
 
@@ -48,7 +48,7 @@
 - `main_warehouse.csv` - содержит информацию об остатках на центральном складе (`warehouse_balance`).
 - `deliveries.xlsx` - содержит информацию о количестве поставленного товара (`delivery_qty`).
 
-Выполненеи скрипта по генерации данных:
+Выполнение скрипта по генерации данных:
 
 <img width="872" height="759" alt="image" src="https://github.com/user-attachments/assets/8bde6c29-8d2f-4f73-ba10-40d35828d25e" />
 ---
