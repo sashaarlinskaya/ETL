@@ -23,6 +23,8 @@
 
 *Файл `architecture.drawio` с разработанной схемой приложен в репозитории. Вы можете открыть его через [draw.io](https://app.diagrams.net/).*
 
+<img width="980" height="500" alt="image" src="https://github.com/user-attachments/assets/c4c77216-1c40-4db6-a4c3-400c31f0b444" />
+
 ---
 
 ## 2. Подготовка данных
