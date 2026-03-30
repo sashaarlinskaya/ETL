@@ -8,4 +8,4 @@
 ## Лабораторная работа 4. Анализ данных с помощью Dask и визуализация графов (DAG)
 *  ([Отчет 4](https://github.com/sashaarlinskaya/ETL/blob/main/lw2.md))
 *  ([Коллаб](https://github.com/sashaarlinskaya/ETL/blob/main/Копия_блокнота_%22ETL_LAB_04_ipynb%22.ipynb))
-*  ([Коллаб_ссылка на блокнот]([(https://colab.research.google.com/drive/1Zqctus8hUvO7uLWD9P57veDkvpqje1K5#scrollTo=U_wfL4uVAMph))
+*  ([Коллаб_ссылка на блокнот](https://colab.research.google.com/drive/1Zqctus8hUvO7uLWD9P57veDkvpqje1K5#scrollTo=U_wfL4uVAMph))
