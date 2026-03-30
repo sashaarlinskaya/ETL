@@ -53,7 +53,8 @@
 
 ## 3. ETL-процесс в Pentaho (Spoon)
 Общий вид:
-<img width="1499" height="907" alt="image" src="https://github.com/user-attachments/assets/e869763b-8ec7-45dd-bdd1-c904cf716cd6" />
+<img width="1206" height="792" alt="image" src="https://github.com/user-attachments/assets/df2a5e35-9e1e-4751-905d-87841ba5bdd8" />
+
 **Table Input:** Чтение данных из PostgreSQL (1 000 000 строк).
 <img width="995" height="706" alt="image" src="https://github.com/user-attachments/assets/f1c7451a-8bdd-4e4b-a852-c19c9f1e3744" />
 
