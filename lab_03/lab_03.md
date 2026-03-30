@@ -32,14 +32,15 @@
 ### Шаг 2.1. Генерация данных для PostgreSQL
 Был подготовлен скрипт (в файле `sql_scripts.sql`), который создает таблицу `retail_stores` и с помощью функции `generate_series` генерирует **1 000 000 строк** случайных данных (ID магазина, ID продукта, остаток, дата и категория товара).
 Создание БД:
-<img width="973" height="552" alt="image" src="https://github.com/user-attachments/assets/ec178698-b757-4996-80f7-5ab61c2c2840" />
+<img width="902" height="453" alt="image" src="https://github.com/user-attachments/assets/f56b5878-673f-4682-8945-b1be8155a090" />
+
 
 
 Наполнение БД:
 
-<img width="738" height="612" alt="image" src="https://github.com/user-attachments/assets/b3fd2c0c-ceb2-4ad6-b423-a40a05b5c8af" />
+<img width="685" height="531" alt="image" src="https://github.com/user-attachments/assets/c27f462c-547e-449c-94c9-cb3dfe59ec87" />
 
-<img width="928" height="813" alt="image" src="https://github.com/user-attachments/assets/16b5113b-7258-4192-bbd6-b220caf02750" />
+<img width="844" height="698" alt="image" src="https://github.com/user-attachments/assets/13c875f0-71ca-47dc-ab85-84fb3043dd4f" />
 
 ### Шаг 2.2. Генерация файлов CSV и Excel
 Чтобы создать файлы с **100 000 строк**, используется скрипт `generate_data.py` (написан на Python с использованием библиотек `pandas` и `numpy`).
@@ -80,7 +81,8 @@
 В MySQL (на основе загруженной таблицы) создается View `view_analytics_report` (скрипт есть в `sql_scripts.sql`), которое группирует данные по категориям и показывает общие суммы остатков, поставок, а также общее отклонение и количество проблемных записей.
 
 БД в MYSQL:
-<img width="1553" height="800" alt="image" src="https://github.com/user-attachments/assets/2ade1610-4e90-4317-9ad8-85403a9ebfc1" />
+<img width="1544" height="902" alt="image" src="https://github.com/user-attachments/assets/ba231a23-4a94-4f0c-886e-61fa70b8da93" />
+
 
 Создание VIEW:
 ```sql
@@ -95,7 +97,8 @@ SELECT
 FROM inventory_analysis
 GROUP BY category;
 ```
-<img width="1557" height="463" alt="image" src="https://github.com/user-attachments/assets/57d4cc5f-c4d7-442d-a001-e54bf614f3ac" />
+<img width="1526" height="895" alt="image" src="https://github.com/user-attachments/assets/ed12bda4-74cd-47f2-8c7d-a71bf5677b01" />
+
 Запрос к VIEW:
 Категории с наибольшим абсолютным расхождением (discrepancy)
 ```sql
@@ -109,7 +112,8 @@ FROM view_analytics_report
 WHERE total_delivered > 0
 ORDER BY total_discrepancy DESC;
 ```
-<img width="1558" height="739" alt="image" src="https://github.com/user-attachments/assets/3d18cf66-3799-4f93-9b78-ca046cc3f9ee" />
+<img width="978" height="474" alt="image" src="https://github.com/user-attachments/assets/673467c5-bfe6-499c-a41a-48d721d7418e" />
+
 
 ## 5. Вывод
 В ходе работы была спроектирована и реализована ETL-архитектура, объединяющая данные из трех различных источников (СУБД и файлы). Была учтена проблема большого объема данных (1 млн записей) путем введения этапа фильтрации в Pentaho, что позволило выделить наиболее приоритетные данные для аналитики и избежать лишней нагрузки на хранилище DWH. Созданы аналитические Business-витрины для пользователей продукта.
