@@ -4,7 +4,7 @@
 ## Лабораторная работа 2. Динамические соединения с базами данных
 *  ([Отчет 2](https://github.com/sashaarlinskaya/ETL/blob/main/lw2.md))
 ## Лабораторная работа 3. Интеграция данных из нескольких источников. Обработка и согласование данных из разных источников
-*  ([Отчет 3]((https://github.com/sashaarlinskaya/ETL/blob/main/lab_03/lab_03.md)))
+*  ([Отчет 3](https://github.com/sashaarlinskaya/ETL/blob/main/lab_03/lab_03.md)))
 ## Лабораторная работа 4. Анализ данных с помощью Dask и визуализация графов (DAG)
 *  ([Отчет 4](https://github.com/sashaarlinskaya/ETL/blob/main/lw2.md))
 *  ([Коллаб](https://github.com/sashaarlinskaya/ETL/blob/main/Копия_блокнота_%22ETL_LAB_04_ipynb%22.ipynb))
