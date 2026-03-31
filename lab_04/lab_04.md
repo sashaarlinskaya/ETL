@@ -209,6 +209,15 @@ display(Image('complex_color_analysis.png'))
 
 ## Шаг 5. Аналитика
 
+<img width="1600" height="681" alt="image" src="https://github.com/user-attachments/assets/ae283c57-a903-4832-893d-89f9ad2cbcd0" />
+
+<img width="1224" height="761" alt="image" src="https://github.com/user-attachments/assets/db916b82-2d29-49bc-b51a-6f4805586e59" />
+
+<img width="946" height="758" alt="image" src="https://github.com/user-attachments/assets/98ee64b9-58ea-4f94-9dd4-2130ff74c34a" />
+
+<img width="1274" height="762" alt="image" src="https://github.com/user-attachments/assets/32c3431f-492e-4f63-ae66-d459bed8a51e" />
+
+
 ---
 
 
