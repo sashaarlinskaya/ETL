@@ -226,7 +226,7 @@ display(Image('complex_color_analysis.png'))
 
 Все скрипты, ноутбуки и результаты выполнения данной лабораторной работы доступны в репозитории GitHub по следующей ссылке:
 
-👉 [**Перейти в папку проекта lab_03 на GitHub**](https://github.com/sashaarlinskaya/ETL/tree/main/lab_04)
+👉 [**Перейти в папку проекта lab_04 на GitHub**](https://github.com/sashaarlinskaya/ETL/tree/main/lab_04)
 
 
 
