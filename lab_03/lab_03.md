@@ -43,10 +43,13 @@
 
 <img width="844" height="698" alt="image" src="https://github.com/user-attachments/assets/13c875f0-71ca-47dc-ab85-84fb3043dd4f" />
 
-### Шаг 2.2. Генерация файлов CSV и Excel
+### Шаг 2.2. Генерация файлов Excel
 Чтобы создать файлы с **100 000 строк**, используется скрипт `generate_data.py` (написан на Python с использованием библиотек `pandas` и `numpy`).
-- `main_warehouse.csv` - содержит информацию об остатках на центральном складе (`warehouse_balance`).
 - `deliveries.xlsx` - содержит информацию о количестве поставленного товара (`delivery_qty`).
+
+### Шаг 2.3. Сооздание данных MySQL (исх): Основной склад.
+
+<img width="910" height="843" alt="image" src="https://github.com/user-attachments/assets/a6d21289-cf0a-46fa-9e53-ce7dbf977f42" />
 
 Выполнение скрипта по генерации данных:
 
@@ -55,12 +58,16 @@
 
 ## 3. ETL-процесс в Pentaho (Spoon)
 Общий вид:
-<img width="1206" height="792" alt="image" src="https://github.com/user-attachments/assets/df2a5e35-9e1e-4751-905d-87841ba5bdd8" />
+
 
 **Table Input:** Чтение данных из PostgreSQL (1 000 000 строк).
 <img width="995" height="706" alt="image" src="https://github.com/user-attachments/assets/f1c7451a-8bdd-4e4b-a852-c19c9f1e3744" />
 
-**CSV Input / Excel Input:** Чтение данных из файлов (по 100 000 строк).
+**Table Input:** Чтение данных из MySQL (по 100 000 строк).
+<img width="978" height="707" alt="image" src="https://github.com/user-attachments/assets/e925eb79-4bd1-4307-9c0d-f7a297acc514" />
+
+
+**Excel Input:** Чтение данных из файлов (по 100 000 строк).
 <img width="1211" height="798" alt="image" src="https://github.com/user-attachments/assets/a68c7834-4197-44c6-a634-b9a2cf8cdac0" />
 
 
