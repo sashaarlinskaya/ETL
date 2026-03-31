@@ -68,7 +68,8 @@
 
 
 **Excel Input:** Чтение данных из файлов (по 100 000 строк).
-<img width="1211" height="798" alt="image" src="https://github.com/user-attachments/assets/a68c7834-4197-44c6-a634-b9a2cf8cdac0" />
+<img width="1200" height="761" alt="image" src="https://github.com/user-attachments/assets/e4e65777-7cf9-4dbb-9fc5-b08d37c5503b" />
+
 
 
 **Stream Lookup:** Обогащение данных из базы данных данными из файлов (присоединение по `product_id`).
