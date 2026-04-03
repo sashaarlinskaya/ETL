@@ -156,9 +156,8 @@ print(f"Результат: {z.compute()}")
 
 **Результат:** 
 
-<img width="478" height="711" alt="image" src="https://github.com/user-attachments/assets/3c08b49e-1372-4e05-af39-d3d1229e59a2" />
+<img width="657" height="579" alt="image" src="https://github.com/user-attachments/assets/008c3d6f-f2e4-4960-9ed0-cbdd1e93a063" />
 
-<img width="327" height="111" alt="image" src="https://github.com/user-attachments/assets/dedb99b2-b300-4b03-aea0-c6979570656c" />
 
 
 ### 4.2. Сложный многоуровневый DAG.
@@ -205,6 +204,8 @@ display(Image('complex_color_analysis.png'))
 **Результаты:**
 
 <img width="1739" height="620" alt="image" src="https://github.com/user-attachments/assets/db8333eb-0cf2-4147-8fac-a2ae0fefdbbc" />
+
+<img width="532" height="376" alt="image" src="https://github.com/user-attachments/assets/0b84108c-8fdc-4388-987d-7905183c9daf" />
 
 
 ## Шаг 5. Аналитика
