@@ -47,13 +47,14 @@
 Чтобы создать файлы с **100 000 строк**, используется скрипт `generate_data.py` (написан на Python с использованием библиотек `pandas` и `numpy`).
 - `deliveries.xlsx` - содержит информацию о количестве поставленного товара (`delivery_qty`).
 
+Выполнение скрипта по генерации данных:
+
+<img width="872" height="759" alt="image" src="https://github.com/user-attachments/assets/8bde6c29-8d2f-4f73-ba10-40d35828d25e" />
+
 ### Шаг 2.3. Сооздание данных MySQL (исх): Основной склад.
 
 <img width="910" height="843" alt="image" src="https://github.com/user-attachments/assets/a6d21289-cf0a-46fa-9e53-ce7dbf977f42" />
 
-Выполнение скрипта по генерации данных:
-
-<img width="872" height="759" alt="image" src="https://github.com/user-attachments/assets/8bde6c29-8d2f-4f73-ba10-40d35828d25e" />
 ---
 
 ## 3. ETL-процесс в Pentaho (Spoon)
