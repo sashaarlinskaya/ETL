@@ -75,7 +75,10 @@
 
 
 **Stream Lookup:** Обогащение данных из базы данных данными из файлов (присоединение по `product_id`).
-<img width="1669" height="564" alt="image" src="https://github.com/user-attachments/assets/73e79646-937e-4084-89f0-64c6f50d8378" />
+<img width="819" height="521" alt="image" src="https://github.com/user-attachments/assets/6d808dc9-a863-4875-8882-eec6e6c17b19" />
+
+<img width="822" height="525" alt="image" src="https://github.com/user-attachments/assets/96131ac7-b473-45f1-8eff-bbb70f88848c" />
+
 
 **Filter Rows:** Фильтрация данных по бизнесс-логике: `store_balance < 50`. Отсеивает около 900 000 строк без критической необходимости в проверке поставок, тем самым защищая MySQL от перегрузки.
 <img width="745" height="391" alt="image" src="https://github.com/user-attachments/assets/1c2daf6e-395a-4cf7-b26c-b9aaac4f5440" />
