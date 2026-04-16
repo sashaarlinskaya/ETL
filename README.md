@@ -11,6 +11,7 @@
 
 
 https://docs.google.com/document/d/1sckpqLsWptZ-25oGAJXBD-xJqaYDNZH0GKKzlGs2o-w/edit?tab=t.0
+https://github.com/tyapkinapa345/ETL/blob/main/Transformation%2015.ktr
 
 ```
 SELECT DISTINCT category, length(category) FROM products WHERE category LIKE 'Электроника%';
