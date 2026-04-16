@@ -13,6 +13,7 @@
 https://docs.google.com/document/d/1sckpqLsWptZ-25oGAJXBD-xJqaYDNZH0GKKzlGs2o-w/edit?tab=t.0
 
 ```
-SELECT id, name, category, price, stock_quantity, supplier_id
-FROM products
+cd ~/Downloads/data-integration/
+chmod +x spoon.sh
+./spoon.sh
 ```
