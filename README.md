@@ -13,9 +13,5 @@
 https://docs.google.com/document/d/1sckpqLsWptZ-25oGAJXBD-xJqaYDNZH0GKKzlGs2o-w/edit?tab=t.0
 
 ```
-cd ~/Downloads/lab_etl/pdi-ce-9.4.0.0-343/data-integration
-Шаг 4. Запуск Pentaho Spoon
-cd ~/Downloads/data-integration/
-chmod +x spoon.sh
-./spoon.sh
+SELECT DISTINCT category, length(category) FROM products WHERE category LIKE 'Электроника%';
 ```
