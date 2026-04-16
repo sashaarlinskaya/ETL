@@ -13,6 +13,13 @@
 https://docs.google.com/document/d/1sckpqLsWptZ-25oGAJXBD-xJqaYDNZH0GKKzlGs2o-w/edit?tab=t.0
 
 ```
-SELECT id, first_name, last_name, email, phone, registration_date FROM customers  
-ORDER BY registration_date, id;
+CREATE TABLE products (
+    id SERIAL PRIMARY KEY,
+    name VARCHAR(255) NOT NULL,
+    category VARCHAR(100),
+    price DECIMAL(10, 2),
+    stock_quantity INTEGER DEFAULT 0,
+    supplier_id INTEGER
+);
+
 ```
